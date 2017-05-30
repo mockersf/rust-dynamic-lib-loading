@@ -1,0 +1,10 @@
+[package]
+name = "module1"
+version = "0.1.0"
+authors = ["François Mockers <mockersf@gmail.com>"]
+
+[lib]
+name = "module1"
+crate-type = ["dylib"]
+
+[dependencies]
